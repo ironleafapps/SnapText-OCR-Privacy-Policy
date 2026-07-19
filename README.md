@@ -4,7 +4,7 @@ This repository hosts the public privacy policy for **SnapText OCR**, an Android
 
 ## Live Privacy Policy
 
-📄 View it here: https://AsfandYarAhmad.github.io/snaptext-ocr/privacy-policy.html
+📄 View it here: [Privacy Policy](https://ironleafapps.github.io/SnapText-OCR-Privacy-Policy/privacy-policy.html)
 
 ## About SnapText OCR
 
