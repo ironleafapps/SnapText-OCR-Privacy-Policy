@@ -2,57 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Privacy Policy - SnapText OCR</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1a1a1a; }
-  h1 { color: #059669; }
-  h2 { color: #059669; margin-top: 32px; }
-  .updated { color: #666; font-size: 0.9em; }
-  ul { padding-left: 20px; }
-</style>
+<title>Privacy Policy - SnapText OCR</title>
+<style>body{font-family:system-ui,sans-serif;line-height:1.6;color:#222;max-width:800px;margin:0 auto;padding:24px}h1,h2{color:#059669}a{color:#005a70}</style>
 </head>
 <body>
-
 <h1>Privacy Policy for SnapText OCR</h1>
-<p class="updated">Last updated: July 19, 2026</p>
-<p>Developed by <strong>Ironleaf Apps</strong></p>
-
-<p>SnapText OCR ("the App," "we," "our") is developed with privacy as a core principle. This Privacy Policy explains what data the App accesses, how it is used, and confirms what data we do <strong>not</strong> collect.</p>
-
-<h2>1. Summary</h2>
-<p>SnapText OCR performs all text recognition directly on your device using Google ML Kit. No images, PDFs, or extracted text are uploaded to any server, and the App does not require an internet connection to function.</p>
-
-<h2>2. Information We Access</h2>
-<p>The App requests the following device permissions solely to provide its core functionality:</p>
-<ul>
-  <li><strong>Camera:</strong> Used to capture photos of documents for text recognition. Images are processed on-device and are not transmitted anywhere.</li>
-  <li><strong>Photos / Gallery / Storage:</strong> Used to let you select existing images or PDF files for text extraction.</li>
-</ul>
-<p>None of this content ever leaves your device. We do not have servers that receive, store, or process your images, PDFs, or extracted text.</p>
-
-<h2>3. Information We Do NOT Collect</h2>
-<ul>
-  <li>We do not collect personal information (name, email, location, etc.)</li>
-  <li>We do not upload your images, PDFs, or scanned text to any cloud service</li>
-  <li>We do not use third-party advertising SDKs or behavioral tracking</li>
-  <li>We do not sell or share any data with third parties</li>
-</ul>
-
-<h2>4. Third-Party Services</h2>
-<p>SnapText OCR uses <strong>Google ML Kit</strong> for on-device text recognition. ML Kit's text recognition model runs locally on your device and does not send your images, photos, or extracted text to Google's servers. The underlying SDK may collect limited anonymous diagnostic data (such as API performance metrics and crash reports) to help Google maintain the service — this never includes the content of your scans. For more information, see <a href="https://developers.google.com/ml-kit/terms" target="_blank">Google ML Kit's Terms of Service</a>.</p>
-
-<h2>5. Data Storage</h2>
-<p>Any images, cropped photos, or extracted text created while using the App are stored locally on your device only, within the App's own storage or wherever you choose to save/export/share them (e.g., clipboard, WhatsApp, Email). We have no access to this data.</p>
-
-<h2>6. Children's Privacy</h2>
-<p>SnapText OCR does not knowingly collect any personal information from anyone, including children under 13. Since the App collects no personal data at all, it is safe for use by all ages in this respect.</p>
-
-<h2>7. Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date.</p>
-
-<h2>8. Contact Us</h2>
-<p>If you have questions about this Privacy Policy, please contact us at: <strong>ironleafapps@gmail.com</strong></p>
-
+<p>Last updated: September 29, 2026</p>
+<p>SnapText OCR (com.snaptext.ocr) is developed by Ironleaf Apps. This policy describes on-device text recognition, advertising, SDK diagnostics, storage, and actions you choose.</p>
+<h2>1. Images, PDFs, and recognized text</h2>
+<p>SnapText uses Google ML Kit to recognize text on your device. Recognition can work without an internet connection. SnapText does not automatically upload your document images, PDFs, or recognized text to an OCR server. This does not mean that the whole app is network-free: advertisements and SDK diagnostics use separate network services.</p>
+<h2>2. Permissions and actions you choose</h2>
+<p>Camera access lets you photograph documents. Gallery and document selection lets you choose images or PDFs for recognition. Access mechanisms can vary with Android and app versions.</p>
+<p>Copy places text on the Android clipboard. Share sends text to the app you choose. Your keyboard, clipboard service, selected sharing app, or cloud gallery/document provider may handle data under its own privacy policy. Cloud providers may need an internet connection. Content you explicitly share can leave your device.</p>
+<h2>3. Advertising</h2>
+<p>SnapText displays Google AdMob banner advertisements and includes the Google Mobile Ads SDK. The SDK can collect and share IP addresses (which can indicate approximate location), advertising and other device/app identifiers, app and ad interactions, and diagnostic information for advertising, analytics, and fraud prevention. The app declares internet and advertising-ID permissions.</p>
+<p>Advertising privacy controls and messages depend on the installed app version, your region, and Google's configuration. Non-personalized or limited advertising does not necessarily mean no data collection. This policy does not imply that every installed version offers an in-app consent or privacy-options screen.</p>
+<p>See <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads data disclosures</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Google documents encryption in transit for SDK-collected data.</p>
+<h2>4. ML Kit diagnostics</h2>
+<p>On-device recognition does not mean ML Kit sends no telemetry. Google documents collection of device and application information, per-installation identifiers, performance metrics, API configuration such as image dimensions, input/output sizes, feature events, and error codes for diagnostics and usage analytics. This is distinct from uploading document images or recognized text for recognition.</p>
+<p>See <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosures</a>. Google documents HTTPS transport and no onward third-party sharing for the data listed there.</p>
+<h2>5. Storage</h2>
+<p>Scan images and temporary processing files may be stored in app-specific storage or cache. Retention and cleanup behavior vary by installed version; do not assume that completing or cancelling a scan removes every app-owned file. Earlier versions may retain scan images. Clearing app storage or uninstalling the app removes app-owned files, but does not remove gallery originals or copies you exported or shared with other apps.</p>
+<p>The editor holds recognized text for editing, copying, and sharing. Android may retain screen state for restoration. On older Android versions, files in app-specific external storage may be accessible to other apps with storage permissions.</p>
+<h2>6. Support and privacy questions</h2>
+<p>No account is required for scanning. If you send feedback by email, we receive your email address and message for handling your request. The app's feedback draft may include your device model, Android version, and SDK level; review it before sending. Contact support@ironleafapps.com for app support or ironleafapps@gmail.com for privacy questions, including requests concerning support correspondence.</p>
+<h2>7. Children's privacy</h2>
+<p>The app includes advertising and SDK data processing as described above. On-device OCR should not be interpreted as a claim that no data is collected from users of any age. If you have a concern about a child's information in support correspondence, contact us using the addresses above.</p>
+<h2>8. Changes</h2>
+<p>We may update this policy as the app or its services change. Updates appear on this page with a revised date.</p>
 </body>
 </html>
